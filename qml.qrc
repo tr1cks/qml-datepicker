@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>DateField.qml</file>
+        <file>DatePicker.qml</file>
+    </qresource>
+</RCC>
