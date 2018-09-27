@@ -12,11 +12,17 @@ ApplicationWindow {
     width: 640
     height: 480
 
-    DateField {
-        value: root.value
+    Page {
+        anchors.fill: parent
 
-        onValueUpdated: {
-            root.value = value
+        header: ToolBar {}
+
+        DateField {
+            value: root.value
+
+            onValueUpdated: {
+                root.value = value
+            }
         }
     }
 }
